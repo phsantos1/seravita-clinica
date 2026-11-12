@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-seravita-deep: #23483F;
+  --color-seravita-sage: #A6B9A8;
+  --color-seravita-canvas: #F7F6F1;
+  --color-seravita-card: #FFFFFF;
+  --color-seravita-sand: #E9E4D9;
+  --color-seravita-charcoal: #343B38;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #F7F6F1;
+  color: #343B38;
+  overflow-x: hidden;
+}
+
+/* Custom organic continuous curve stroke */
+.care-curve-stroke {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  animation: drawCurve 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes drawCurve {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

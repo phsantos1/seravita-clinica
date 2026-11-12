@@ -1,0 +1,6 @@
+{
+  "name": "Seravita | Clínica Médica Multidisciplinar em São Paulo",
+  "description": "Conheça a Seravita. Clínica médica em São Paulo com atendimento em Ortopedia, Dermatologia, Urologia, Cirurgia Vascular e Medicina de Família. Ser visto, ser ouvido, ser cuidado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
